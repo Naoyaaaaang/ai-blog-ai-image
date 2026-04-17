@@ -13,7 +13,7 @@ function formatDateTime(dateStr: string) {
 }
 
 function Excerpt({ content }: { content: string }) {
-  return <>{content.replace(/<[^>]+>/g, '').slice(0, 80)}...</>
+  return <>{content.replace(/<[^>]+>/g, '').slice(0, 120)}...</>
 }
 
 function PlaceholderBg({ source }: { source: string }) {
@@ -190,39 +190,80 @@ function FinanceCard({ post, large }: { post: Post; large: boolean }) {
 }
 
 // ──────────────────────────────────────────────
-// ai-image: 画像全面＋グラデーションオーバーレイ＋テキストオーバーレイ
+// ai-image: gamingpc.biz風カード
+//   - カテゴリバッジは画像右上に半透明オーバーレイ
+//   - 本文抜粋あり、時計アイコン付き日付
 // ──────────────────────────────────────────────
-function GalleryCard({ post, large }: { post: Post; large: boolean }) {
+function CategoryBadge({ source }: { source: string }) {
+  return (
+    <div
+      className="absolute top-2 right-2 flex items-center gap-1 px-2 py-0.5 rounded text-xs font-bold"
+      style={{ backgroundColor: 'rgba(0,0,0,0.65)', color: '#fff' }}
+    >
+      <span>📁</span> {source}
+    </div>
+  )
+}
+
+function TechCard({ post }: { post: Post }) {
   return (
     <Link
       href={`/posts/${post.slug}`}
-      className="post-card group block rounded-lg overflow-hidden relative"
-      style={{ aspectRatio: large ? '16/10' : '4/5' }}
+      className="post-card group block bg-white overflow-hidden rounded"
+      style={{ border: '1px solid #e0e0e0', boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}
     >
-      {post.imageUrl
-        ? <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-110 transition-transform duration-500" unoptimized />
-        : <div className="absolute inset-0" style={{ background: `linear-gradient(135deg, var(--sidebar-header-bg) 0%, color-mix(in srgb, var(--accent) 70%, var(--sidebar-header-bg) 30%) 100%)` }} />
-      }
-      {/* グラデーションオーバーレイ */}
-      <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.25) 55%, rgba(0,0,0,0.05) 100%)' }} />
-      {/* ソースバッジ */}
-      <div className="absolute top-3 left-3">
-        <span className="text-xs font-mono uppercase font-bold px-2 py-1 rounded" style={{ backgroundColor: 'var(--accent)', color: '#fff' }}>
-          {post.source}
-        </span>
+      <div className="relative overflow-hidden" style={{ aspectRatio: '4/3' }}>
+        {post.imageUrl
+          ? <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" unoptimized />
+          : <PlaceholderBg source={post.source} />
+        }
+        <CategoryBadge source={post.source} />
       </div>
-      {/* 下部コンテンツ */}
-      <div className="absolute bottom-0 left-0 right-0 p-4">
-        <h2 className={`font-bold text-white leading-snug line-clamp-2 mb-2 ${large ? 'text-lg' : 'text-sm'}`}>
+      <div className="p-4">
+        <h2
+          className="font-bold text-sm leading-snug line-clamp-2 mb-2 group-hover:underline"
+          style={{ color: 'var(--text-primary)' }}
+        >
           {post.title}
         </h2>
-        <div className="flex gap-1">
-          {post.tags.slice(0, 2).map(tag => (
-            <span key={tag} className="text-xs px-2 py-0.5 rounded-full" style={{ backgroundColor: 'var(--tag-bg)', color: 'var(--tag-text)' }}>
-              #{tag}
-            </span>
-          ))}
-        </div>
+        <p className="text-xs line-clamp-2 mb-3" style={{ color: 'var(--text-secondary)' }}>
+          <Excerpt content={post.content} />
+        </p>
+        <time className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+          🕐 {formatDate(post.publishedAt)}
+        </time>
+      </div>
+    </Link>
+  )
+}
+
+function TechFeaturedCard({ post }: { post: Post }) {
+  return (
+    <Link
+      href={`/posts/${post.slug}`}
+      className="post-card group flex bg-white overflow-hidden rounded"
+      style={{ border: '1px solid #e0e0e0', boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}
+    >
+      <div className="relative shrink-0 overflow-hidden" style={{ width: '55%', minHeight: '220px' }}>
+        {post.imageUrl
+          ? <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" unoptimized />
+          : <PlaceholderBg source={post.source} />
+        }
+        <CategoryBadge source={post.source} />
+      </div>
+      <div className="flex-1 p-5 flex flex-col justify-center">
+        <h2
+          className="font-bold text-base leading-snug line-clamp-3 mb-3 group-hover:underline"
+          style={{ color: 'var(--text-primary)' }}
+        >
+          {post.title}
+        </h2>
+        <p className="text-xs line-clamp-4 mb-4" style={{ color: 'var(--text-secondary)' }}>
+          <Excerpt content={post.content} />
+        </p>
+        <time className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+          🕐 {formatDate(post.publishedAt)}
+        </time>
       </div>
     </Link>
   )
@@ -286,7 +327,7 @@ export function PostCard({ post, large = false }: { post: Post; large?: boolean 
     case 'nisa-blog':
       return <FinanceCard post={post} large={large} />
     case 'ai-image':
-      return <GalleryCard post={post} large={large} />
+      return large ? <TechFeaturedCard post={post} /> : <TechCard post={post} />
     case 'overseas-tools':
       return <ToolCard post={post} large={large} />
     default:

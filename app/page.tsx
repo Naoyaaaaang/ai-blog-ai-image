@@ -132,18 +132,36 @@ function PostsGrid({ posts, totalPages }: { posts: ReturnType<typeof getPostsByP
     )
   }
 
-  // ── ai-image: マソンリーギャラリー ──
+  // ── ai-image: gamingpc.biz風 フィーチャード + セクションヘッダー + 3カラムグリッド ──
   if (siteId === 'ai-image') {
     return (
       <>
-        <div className="posts-masonry">
-          {posts.map((post, i) => (
-            <div key={post.slug} className="posts-masonry-item">
-              <PostCard post={post} large={i === 0 || i === 3} />
-            </div>
+        {/* フィーチャード記事 */}
+        {posts[0] && (
+          <div className="mb-6">
+            <PostCard post={posts[0]} large />
+          </div>
+        )}
+        {/* gamingpc.biz風 濃紺セクションヘッダー */}
+        <div className="px-4 py-3 mb-6 rounded" style={{ backgroundColor: 'var(--sidebar-header-bg)' }}>
+          <h2 className="text-white font-bold text-base">最新のAI画像生成ニュース</h2>
+        </div>
+        {/* 3カラムグリッド */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-6">
+          {posts.slice(1).map(post => (
+            <PostCard key={post.slug} post={post} />
           ))}
         </div>
-        {paginationEl}
+        {/* gamingpc.biz風「続きを見る」ボタン */}
+        {totalPages > 1 && (
+          <Link
+            href="/page/2"
+            className="flex items-center justify-center gap-2 w-full py-3 text-sm font-medium transition-colors rounded"
+            style={{ backgroundColor: 'var(--card-bg)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+          >
+            続きを見る <span>→</span>
+          </Link>
+        )}
       </>
     )
   }

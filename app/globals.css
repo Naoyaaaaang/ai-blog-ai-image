@@ -106,25 +106,18 @@ body {
   background-color: #FBF3E0 !important;
 }
 
-/* ========== ai-image: ギャラリー ========== */
-.site-ai-image body {
-  background-image: radial-gradient(ellipse at 20% 50%, rgba(255,0,170,0.08) 0%, transparent 60%),
-                    radial-gradient(ellipse at 80% 20%, rgba(0,200,255,0.06) 0%, transparent 60%);
-}
+/* ========== ai-image: クリーンテックブログ ========== */
 .site-ai-image .post-card {
-  border: 1px solid rgba(255, 0, 170, 0.2);
-  transition: border-color 0.2s, box-shadow 0.3s, transform 0.2s;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.15s;
 }
 .site-ai-image .post-card:hover {
-  border-color: var(--accent);
-  box-shadow: 0 0 30px rgba(255, 0, 170, 0.5);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.12);
   transform: translateY(-2px);
 }
-.site-ai-image .sidebar-widget {
-  border: 1px solid rgba(255, 0, 170, 0.2);
-}
 .site-ai-image .hover-item:hover {
-  background-color: rgba(255, 0, 170, 0.07) !important;
+  background-color: #EFF6FF !important;
 }
 
 /* ========== overseas-tools: ProductHunt風 ========== */
