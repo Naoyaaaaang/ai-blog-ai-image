@@ -1,0 +1,14 @@
+{
+  "slug": "20260421-1776743935657",
+  "title": "Gooseが無料で実現！Claude Codeの有料機能を完全代替",
+  "content": "<h2>Claude Codeは月200ドルなのに、無料のGooseで同じことができちゃう！開発者の新しい選択肢が登場</h2>\n\n<p>正直なところ、AI開発ツールの価格設定には驚かされることばかりです。AnthropicのClaude Codeは月20ドルから200ドルという価格帯で、ついにはレート制限による開発者の反発が起きています。でも朗報があるんです。Blockが開発したGooseという完全無料のオープンソースツールが、ほぼ同等の機能を提供しているんですよ。実際に試してみたところ、この違いってかなり大きいなって感じました。</p>\n\n<p>Claude Codeの最大の問題は価格と使用制限。Pro版（月20ドル）は5時間ごとに10～40プロンプトしか使えないんです。実際に集中的にコーディングしていると、あっという間に上限に到達します。Max版（月200ドル）でも制限があって、開発コミュニティから「実務には使えない」という悲鳴が上がっているほど。一方、Gooseはなんとローカルマシンで完全に動作するんです。クラウド依存なし、レート制限なし。「あなたのデータはあなたのもの」という設計思想が個人的にかなり好きです。</p>\n\n<h2>ローカルで動作するAIコーディングエージェント、セットアップはこんなに簡単</h2>\n\n<p>Gooseのセットアップを試してみたんですが、思ったより簡単でした。基本的には三つのステップです。まずOllama（オンプレミスでLLMを実行するツール）をollama.comからインストール。次に「ollama run qwen2.5」でQwen 2.5モデルをダウンロード。最後にGoose DesktopでProviderをOllamaに設定するだけ。これで完全にオフラインで、料金ゼロのAIコーディングアシスタントが手に入るんです。オフライン状態でもクラウド接続不要というのが、飛行機の中での作業を考えると本当に便利ですよ。</p>\n\n<p>ただし現実的な制約もあります。実際に運用するには32GBのRAM推奨（MacBookなら統合メモリ、WindowsやLinuxならGPUメモリが重要）。個人的に試した感じでは、16GBのマシンでも小さめのモデルなら十分動きました。ポイントはネガティブプロンプトならぬ「最適なモデルサイズの選択」。大きすぎるモデルを無理やり走らせるより、まずは小さなモデルで試行錯誤するのがおすすめです。</p>\n\n<h2>Claude Code vs Goose、トレードオフを理解して選ぼう</h2>\n\n<p>完璧な比較じゃないってのが正直なところ。Claude 4.5 Opusはやはり優秀で、複雑なコードベースの理解度が違う。コンテキストウィンドウも100万トークンという圧倒的な規模。でもGooseはモデルに依存しないアーキテクチャだから、今後より良いオープンソースモデルが出てきたら即対応できるんです。実際にGithubスターは26,100超え、362人のコントリビューターが参加していて、開発ペースは商用製品並み。月200ドル払い続ける価値があるかどうか、一度Gooseで試してから判断するのが賢明だと思いますね。</p>\n\n<p>無料でいいツール、個人的にここまで充実しているの初めてです。セットアップも使い方も簡単で、なによりデータがあなたのマシンに残るという安心感。次はMCP（Model Context Protocol）連携も試してみたいし、複雑なワークフロー自動化にもチャレンジしてみます。ぜひあなたも実際に試してみてください。Gooseでどんなプロジェクト作れるか、ぜひ聞かせてほしいです！</p>\n\n<p><strong>参照元：</strong> <a href=\"https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free\" target=\"_blank\">VentureBeat - Claude Code costs up to $200 a month. Goose does the same thing for free.</a></p>\n\n<p><strong>Goose公式：</strong> github.com/block/goose | <strong>Ollama公式：</strong> ollama.com</p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
+  "source": "FLUX",
+  "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+  "publishedAt": "2026-04-21T03:58:55.657Z",
+  "tags": [
+    "AI画像生成",
+    "FLUX",
+    "Stable Diffusion"
+  ]
+}
