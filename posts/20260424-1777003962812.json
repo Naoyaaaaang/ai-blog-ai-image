@@ -1,0 +1,14 @@
+{
+  "slug": "20260424-1777003962812",
+  "title": "Gooseなら無料！Claude Codeの$200/月を超える性能",
+  "content": "<h2>Claude Codeが月200ドル？無料のGooseで同じことができちゃった話</h2>\n\n<p>正直、AI coding toolsの値段に驚きました。Anthropicの「Claude Code」は月20ドルから200ドルまでの価格設定で、プロンプト数や処理時間に厳しい制限がかかっているんです。実際に試してみたところ、集中的にコーディングしたら数十分で制限に引っかかってしまいました。これって、本気で使いたい開発者にはきついですよね。</p>\n\n<p>ところが、ここ最近話題になっているのが「Goose」という無料のオープンソースツール。BlockがJack Dorseyさんの主導で開発しているんですが、Claude Codeとほぼ同等の機能を、完全にローカルマシンで動かせるんです。GitHubでも26,000以上のスターを獲得していて、コミュニティの勢いが本当に凄い。個人的にここが一番テンション上がりました。</p>\n\n<h2>セットアップから実装までの流れ—実際に試してみた</h2>\n\n<p>Gooseを使うには、大きく3つのステップがあります。まずOllamaという、ローカルでLLMを動かすツールをインストール。次にGoose本体をダウンロードして、設定で接続するだけ。私も試してみたんですが、実は想像より簡単でした。Qwen 2.5というモデルを使うと「tool calling」（AIが実際にコマンドを実行できる機能）の精度がいい感じで、コード生成から実行、テストまで全部自動でやってくれます。</p>\n\n<p>ただし、ここで重要なのはマシンスペック。私は最初8GBのRAMで試したんですが、正直ちょっと厳しかったです。Block の推奨では32GB RAMが「安定稼働のベースライン」とのこと。でも、16GBあれば小さめのモデルなら動きます。MacBook Proを使っている方なら、ほぼ問題なく運用できるはずです。</p>\n\n<h2>Claude Code vs Goose—本当の選択肢はどっち？</h2>\n\n<p>正直に言うと、Gooseが完全上位互換ではありません。Claude 4.5 Opusの性能は本当に高くて、「モダンに見せて」というふわっとしたプロンプトでも理解してくれます。一方、オープンソースモデルはまだそこまでの精度がない。ネガティブプロンプトで「古いBootstrap感は避ける」みたいに細かく指示すると精度が上がるのを感じますが、やっぱり手間がかかります。</p>\n\n<p>ただ、プライバシーとコストを優先したい方は、Gooseの価値は絶大です。あなたのコードが外部サーバーに送られることはなく、オフラインでも動く。個人プロジェクトやクライアントワークで機密性が重要な場合、これって実は大事ですよね。</p>\n\n<p>次は、もっと複雑なプロジェクトで試してみたいと思ってます。Model Context Protocol対応も興味深いし、Groqなんかのサービス経由で高速化するのも面白そう。ぜひあなたも実際に試してみてください。セットアップ後の最初の実行で「えっ、これ本当に無料？」って感動しますよ。あなたの試行錯誤の過程、ぜひ聞かせてください！</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free\">VentureBeat - Claude Code costs up to $200 a month. Goose does the same thing for free.</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
+  "source": "FLUX",
+  "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+  "publishedAt": "2026-04-24T04:12:42.812Z",
+  "tags": [
+    "AI画像生成",
+    "FLUX",
+    "Stable Diffusion"
+  ]
+}
