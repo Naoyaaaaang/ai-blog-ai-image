@@ -2,7 +2,7 @@
   "slug": "20260423-1776916797196",
   "title": "AI生成画像で再現したい、あの「やってみたい」が叶う瞬間",
   "content": "<h2>Transformers から MLX へ！Mac での AI 画像生成がマジで快適になった件</h2>\n\n<p>\n最近、Hugging Face のブログで見かけた「Transformers to MLX」という記事を読んで、正直ビビりました。というのも、ずっと GPU パワーに頼ってた僕の画像生成ワークフローが、Mac だけで完結しちゃうようになったってことなんですよ。実際に試してみたところ、生成速度が想像以上に速くて、推しのキャラの二次創作とかをサクサク作れるようになりました。\n</p>\n\n<p>\nMLX というのは Apple Silicon 向けに最適化された機械学習フレームワークで、要は M1・M2 Mac の性能をめちゃくちゃ引き出せるって感じです。これまでは Stable Diffusion を動かすのに外部 GPU が必要だったり、クラウド使ったりしてたんですが、今は自分の Mac で LoRA（特定の絵柄を学習させたカスタムモデル）もバンバン試せるようになりました。個人的にここが一番テンション上がったポイントです。LoRA を組み込んで、自分好みの線画タッチを再現できるようになると、本当に表現の幅が広がる。プロンプトに「watercolor style」を追加したら、LoRA の特性とうまく融合して、予想以上に素敵な絵が出てきたんですよ。\n</p>\n\n<h2>実際の生成フロー：CFG と Sampler の調整がキモ</h2>\n\n<p>\n実際に何枚か生成してみた経験から言うと、大事なのは CFG（プロンプトへの忠実度）と Sampler（生成アルゴリズム）の設定です。CFG を 7 に設定したところ、ネガティブプロンプトの「low quality」「blurry」のような否定表現がしっかり機能して、クオリティが段違いになりました。Sampler は DPM++ だと収束が早くて、特に細かいディテール（装飾品とか背景の小物）が綺麗に出ます。ControlNet を使ってポーズを固定したいときは、線画をアップロードして参照させるんですが、Mac でもサクサク動くんですよ。これはマジで革命的です。\n</p>\n\n<p>\n推し絵を量産したい人にはマジでおすすめです。クラウドの課金に悩む必要もないし、プライバシーも守られる。次はこれで VTuber モデルを学習させてみる予定なので、本当に楽しみです。ぜひ実際に試してみてください！あなたの推し絵、あなたのオリジナルキャラ、どんなクオリティで生成できるのか、ぜひ見てみたいです！\n</p>\n\n<p>\n<a href=\"https://huggingface.co/blog/transformers-to-mlx\" target=\"_blank\">参照元：Hugging Face Blog - Transformers to MLX</a>\n</p>",
-  "imageUrl": null,
+  "imageUrl": "https://huggingface.co/blog/assets/transformers-to-mlx/thumbnail.jpg",
   "source": "LoRA",
   "sourceUrl": "https://huggingface.co/blog/transformers-to-mlx",
   "publishedAt": "2026-04-23T03:59:57.196Z",
