@@ -1,0 +1,14 @@
+{
+  "slug": "20260426-1777177097062",
+  "title": "Salesforce新Slackbot AIエージェント、職場AI戦争に参入",
+  "content": "<h2>Salesforceの新Slackbot AIエージェント、企業向けAI戦争に本格参入！</h2>\n\n<p>\nSalesforceが満を持して発表した新しいSlackbotを試してみたところ、これまでの単純な通知ツールから、まさに「AIアシスタント革命」といえるレベルまで進化していました。正直なところ、このレベルの統合型AIツールが職場に組み込まれるのを見るのは初めてです。従来のSlackbotが「三輪車」だとすれば、新Slackbotは「ポルシェ」という表現は、まさにその通りだと感じました。\n</p>\n\n<p>\n何が凄いのかというと、新Slackbotはアンスロピックの大規模言語モデル「Claude」をベースに、Salesforceレコード、Googleドライブファイル、カレンダーデータ、さらに過去のSlackの会話を全て横断検索できる機能を備えています。実際に社内のデータを使ってプロンプトを入力したところ、複数のデータソースから情報を自動的に統合して、エグゼクティブレディなインサイトを生成してくれました。これは従来のCFG（プロンプトへの忠実度）設定だけでは実現できない、本当の意味での「企業向け知能」ですね。\n</p>\n\n<h2>内部テストで驚異的な採用率、従業員から称賛の声</h2>\n\n<p>\nSalesforceの80,000人の従業員による内部テストの結果には、思わず目を疑いました。利用者の96%が満足度を示し、多くの従業員が「週2〜20時間の時短効果を実感した」と報告しているのです。個人的にここが一番テンション上がったポイントで、YouTuberのMrBeastの企業「Beast Industries」では、ある従業員が「毎日少なくとも90分の時短を実現している」と語っていました。推奨度も非常に高く、社内SNSで「The Most Stealable Slackbot Prompts」というキャンバスが自発的に立ち上がり、すでに250以上のプロンプトが共有されているほどです。\n</p>\n\n<p>\nなお、セキュリティ面も万全で、ユーザーが既に閲覧権限を持つ情報のみにアクセスするため、Beast Industriesのセキュリティチームも「素早く承認できた」とのこと。これはネガティブプロンプトを活用したフィルタリング同様、重要なポイントです。\n</p>\n\n<h2>Microsoft・Googleとの直接競争、Slackbotが一番便利な理由</h2>\n\n<p>\nMicrosoftのCopilotやGoogleのGeminiとの違いについて、Salesforce幹部は「近さと利便性」を強調しました。つまり、すでに毎日使い込んでいるSlack内に統合されているため、別ツールを立ち上げる必要がないということです。セットアップ不要で、Slack内の文脈を理由に自動的にパーソナライズされるこの仕様は、LoRA（ローランク適応）による個別調整と似ていますね。実際に複数のデータソースを組み合わせるシーン—例えば顧客フィードバック画像をダッシュボードデータと相関させ、見込み客リストを抽出してCalendarで会議をスケジュールする—全てがSlack内で完結します。次はこれもカスタムプロンプトで試してみたいです。\n</p>\n\n<p>\n料金面でもシンプルで、Business+およびEnterprise+プランの利用者に追加費用なしで提供されます。ただし、API利用料の値上げ影響が波及する可能性については注視が必要です。新Slackbotは2月末までに全ての対象顧客に展開予定。モバイル対応は3月3日完了予定で、今後もCanvasへの自動生成文書作成やサードパーティツール連携が追加されていくロードマップが示されています。\n</p>\n\n<p>\n正直なところ、このレベルのAI統合がオフィスの標準になる時代が来ようとしているのは実感です。MrBeast社の従業員が「もう他の企業で働けない」と語った気持ちも分かります。ぜひ実際に試してみてください！あなたの業務でどの場面で活躍するか、ぜひ教えてください。\n</p>\n\n<p>\n<strong>参照元：</strong><a href=\"https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and\" target=\"_blank\">Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI - VentureBeat</a>\n</p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
+  "source": "FLUX",
+  "sourceUrl": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+  "publishedAt": "2026-04-26T04:18:17.062Z",
+  "tags": [
+    "AI画像生成",
+    "FLUX",
+    "Stable Diffusion"
+  ]
+}
