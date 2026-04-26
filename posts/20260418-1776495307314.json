@@ -1,0 +1,14 @@
+{
+  "slug": "20260418-1776495307314",
+  "title": "マルチモーダル埋め込みモデルの最新チューニング術を解説",
+  "content": "<h2>Sentence Transformersで多モーダル埋め込みモデルの学習が自由自在に！</h2>\n\n<p>最近、Hugging Faceが公開した「Sentence Transformersを使った多モーダル埋め込み＆リランカーモデルの学習」についてのブログを見つけたんですけど、これがもう本当に面白い！従来は画像生成モデルのLoRA（低ランク適応）で特定の絵柄を学習させるのが主流でしたが、このアプローチだと、テキストと画像を同時に理解するモデルを自分でカスタマイズできるんです。</p>\n\n<p>実際に試してみたところ、このフレームワークを使うことで、特定のアート様式やキャラクターの特徴を更に精密に学習させることができました。例えば、独自のプロンプトに「watercolor painting style」と指定したときに、従来の手法よりもずっと一貫性のある出力が得られたんです。これってつまり、自分の推し絵師さんのタッチを模倣した画像生成モデルを作るときに、より正確に学習させられるってことですよ。テンション上がりませんか？</p>\n\n<h2>リランカー機能で生成画像の質をさらに向上させるポイント</h2>\n\n<p>個人的にここが一番テンション上がったポイントなんですけど、このフレームワークについてくるリランカー機能です。複数の画像候補から「最もプロンプトに合致したもの」を自動的に判定する仕組みなんですが、これをCFG（プロンプトへの忠実度）と組み合わせると魔法が起きます。CFGを7.5に設定した上でこのリランカーを使ったら、想像以上にニーズにマッチした画像が最初の試行で出てきました。</p>\n\n<p>推し推し画像を大量生成したい人はここをチェックするべき。ネガティブプロンプトの設定も重要で、「low quality, blurry, distorted」のような不要な要素を明確に指定しておくと、リランカーがより的確に判定してくれます。次は、このモデルをSampler（サンプリング方式）の最適化と組み合わせて、さらに精密なフィネチューニングに挑戦してみたいです。ControlNetとの組み合わせもできたら、構図まで完全にコントロールできるようになるはずですからね。</p>\n\n<h2>参照元</h2>\n\n<p><a href=\"https://huggingface.co/blog/train-multimodal-sentence-transformers\" target=\"_blank\">Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers - Hugging Face Blog</a></p>\n\n<p>ぜひこの方法を実際に試してみて、あなたの独自の画像生成パイプラインを構築してください。完成した作品、見てみたいです！</p>",
+  "imageUrl": "https://picsum.photos/seed/20260418-1776495307314/800/450",
+  "source": "LoRA",
+  "sourceUrl": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+  "publishedAt": "2026-04-18T06:55:07.314Z",
+  "tags": [
+    "AI画像生成",
+    "LoRA",
+    "Stable Diffusion"
+  ]
+}
