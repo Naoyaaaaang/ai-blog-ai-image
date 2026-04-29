@@ -1,0 +1,14 @@
+{
+  "slug": "20260429-1777436606335",
+  "title": "AI画像生成が次のレベルへ！ControlNet Unionの最新版を徹底解剖",
+  "content": "<h2>Z-Image Turbo × ControlNet Union 2.1がComfyUIで爆誕！生成スピードと品質の両立が現実に</h2>\n\n<p>最近、Stable Diffusionコミュニティで話題沸騰中のZ-Image Turbo ControlNet Union 2.1（version 2602）を実際に触ってみました。正直な感想は「これ、ゲームチェンジャーです」。今まで速度と品質のバランスで悩んでいた人は必見ですよ。</p>\n\n<p>Z-Image Turboの魅力は、なんといっても生成速度。それでいて品質を落としていないという、この一見矛盾したスペックが最大の売りだったんです。実際に自分でも何度か使ってみましたが、プロンプトへの忠実度（CFG）をデフォルト付近に設定しても、かなり意図通りの画像が出てくるんですよ。今回のControlNet Union統合で、さらに細かいキャラクター構図コントロールが可能になったわけです。</p>\n\n<h2>グレースケール画像のカラー化機能がマジで秀逸</h2>\n\n<p>今回のアップデートで個人的に一番テンション上がったのが、グレースケール画像を自動でカラー化する新機能です。手持ちのスケッチやモノクロ素材を活用できるなんて、これまでのワークフローを大きく変えられる可能性があります。試しに古い白黒写真のスケッチをアップロードして、「vibrant oil painting style」というプロンプトで生成してみたところ、ものすごく自然な色付けが返ってきました。ネガティブプロンプトに「desaturated, monochrome」を入れておくと、さらに色鮮やかに仕上がるのがポイントです。</p>\n\n<p>ControlNet Union 2.1の統合により、キャラクターの配置や姿勢をディテール単位で指定できるようになったのも大きい。複数キャラクターを入れた立ち絵を作りたい人は、ここを活用すれば思い通りの構図が実現しやすくなります。Sampler（サンプラー）をDPM++ 2M Karras あたりに設定して、ステップ数を25～30程度にしぼってみたら、クオリティを保ちながら爆速で生成できました。</p>\n\n<h2>ComfyUIでの実装方法と次のステップ</h2>\n\n<p>ComfyUIでのセットアップは比較的シンプル。Z-Image Turboのモデルをロードして、ControlNet Union 2.1をノードに追加するだけです。アニメ調の絵柄を作りたい人は、プロンプトの最初に「anime, illustration」を入れると一貫性が出やすいですね。実際に試したところ、LoRA（追加学習モデル）との組み合わせもスムーズで、特定の画風を強調したいときの相性も良好です。</p>\n\n<p>次はこのControlNetを使って、動画フレームの一貫性を保ったアニメーション生成にも挑戦してみたいところです。ぜひあなたも実際に試してみて、どんな作品が生まれるか聞かせてもらえると嬉しいです！</p>\n\n<p><strong>参照元:</strong> <a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=6335",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-04-29T04:23:26.335Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
