@@ -1,0 +1,14 @@
+{
+  "slug": "20260502-1777695226727",
+  "title": "ComfyUIで画像生成が変わる！Z-Imageの魔法を体験",
+  "content": "<h2>アリババの新星「Z-Image」がComfyUIで使える！速さと品質の両立が本当にすごい</h2>\n\n<p>最近、Alibaba Tongyi Labがリリースした「Z-Image」という画像生成モデルが話題になっているので、早速ComfyUIで試してみました。正直、これは期待以上でした。Flux や SDXL と比較して、生成速度と画質のバランスが本当に優秀です。</p>\n\n<p>Z-Imageの最大の魅力は、なんといってもその処理速度。これまでのモデルだと高品質な画像を生成するのに時間がかかっていましたが、Z-Imageはサッと高速で完成度の高い画像を吐き出してくれるんです。私が実際に生成してみたところ、プロンプトに「portrait, detailed face, soft lighting」と入力したら、ほぼ一瞬で洗練されたポートレート画像が完成。びっくりしました。</p>\n\n<h2>リアルな写真表現と日本語テキスト生成が得意な理由</h2>\n\n<p>Z-Imageが特に優れているのは「フォトリアリスティック画像生成」と「バイリンガル対応」。つまり、自然な写真風の画像を作りたい人、そして日本語や中国語を含むテキストを画像内に入れたい人にとって、かなり強力なツールになるということです。</p>\n\n<p>実際にCFG（プロンプトへの忠実度）を7に設定して、日本語で「古い京都の寺院、朝日が当たる庭園」と入力してみたんですが、本当にリアルな和風の背景が生成されました。テキスト生成も、日本語での出力精度が高い。個人的にここが一番テンション上がったポイントです。</p>\n\n<p>写真的な質感を求めている人は、ネガティブプロンプトの「illustration, anime, cartoon」の部分をしっかり設定することがコツ。そうすることで、より一層リアルな仕上がりになります。Sampler（サンプリング方式）も試行錯誤の価値あり。DPM++ 2M Karrasあたりで良い結果が出ました。</p>\n\n<h2>ComfyUIでの導入も簡単、さあ試してみよう</h2>\n\n<p>何より嬉しいのは、Z-Imageがオープンソースという点。無料で使えます。ComfyUIでの導入も比較的スムーズで、Hugging Faceから必要なファイルを落とすだけで環境が整います。</p>\n\n<p>Flux やSDXLと直接比較できる段階に来ているZ-Image。生成速度を重視したい、でも品質は妥協したくない、という方には本当にオススメです。次は ControlNet を組み合わせて、より細かい構図制御にも挑戦してみたいなと考えています。</p>\n\n<p>ぜひ実際に試してみてください！あなたのZ-Imageで生成した素敵な作品、ぜひ見てみたいです。</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image/\">Z-Image on ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=6727",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image/",
+  "publishedAt": "2026-05-02T04:13:46.727Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}

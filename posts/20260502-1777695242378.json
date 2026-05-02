@@ -1,0 +1,14 @@
+{
+  "slug": "20260502-1777695242378",
+  "title": "AI画像生成で流行の「NousCoder」を試してみたい！",
+  "content": "<h2>オープンソースのAIコーディングモデル「NousCoder-14B」がついに登場！実際に試してみました</h2>\n\n<p>ついさっき、Nous Researchがリリースした「NousCoder-14B」という新しいAIコーディングモデルについて知りました。正直、最初は「また新しいコーディングAI？」という感じだったんですが、実際に詳細を見てみるとマジで興奮が止まりません！このモデル、わずか4日間でNvidiaの最新GPU「B200」48基を使ってトレーニングされたにもかかわらず、より大規模な有料システムに匹敵、あるいは凌駕する精度を達成しているんです。</p>\n\n<p>何が一番テンション上がったかというと、その圧倒的な透明性です。通常、AIモデルのリリースって「結果だけ公開します」みたいなパターンが多いじゃないですか。でも今回、Nous Researchは完全なモデルウェイト、強化学習環境、ベンチマークスイート、そしてトレーニング用のツール一式まで全部公開しちゃった。これなら誰でも同じ環境を再現・拡張できるって、すごくないですか？</p>\n\n<h2>24,000個の競技プログラミング問題で学習した秘密兵器</h2>\n\n<p>NousCoder-14Bの学習プロセスが本当に興味深いんです。「検証可能な報酬」という仕組みを使ってるんですが、これはモデルがコード解答を生成して、その解答をテストケースに対して実行し、「正解か不正解か」という単純なバイナリ信号をフィードバックするというもの。実際の生成AIで例えるなら、ControlNetで細かい制御を加えるような感覚に近いですね。</p>\n\n<p>個人的にここが一番面白いなと思ったのは、「DAPO（Dynamic Sampling Policy Optimization）」という手法を使ってることです。これは、モデルが全ての試行に成功したか全て失敗した問題をトレーニングから除外する仕組み。つまり、学習に役立たない例を効率的に削除することで、より質の高い学習を実現してるわけです。CFG（プロンプトへの忠実度）を調整するのと同じように、学習効率を最適化してるんですね。</p>\n\n<p>興味深いことに、研究者のJoe Liが気付いた重要なポイントがあります。24,000個の問題を使ったモデルの改善は、彼自身が競技プログラミング大会「Codeforces」で2年かけて達成した進歩とほぼ同等だったということ。ただし、彼は1,000問を解くのに2年掛かった一方で、モデルは24,000問が必要でした。つまり、人間の方が圧倒的にサンプル効率が良い、ということですね。</p>\n\n<h2>今後のAIコーディングはここに注目！データ不足という新たな課題</h2>\n\n<p>技術報告書に隠されていた、でも超重要な発見があります。競技プログラミングの領域では、もうほぼ全ての高品質なトレーニングデータを使い切ってしまった、ということなんです。ネットに存在する競技プログラミング問題の総数が、今回使った24,000問とほぼ同じレベルだというんですから。これはつまり「今後は合成データの生成」が超重要になるってことですね。</p>\n\n<p>Li氏は興味深い提案をしてました。「モデルに問題を解かせるだけじゃなく、問題も生成させる」という自己対戦型の学習です。ゲームAIの世界で成功した手法をコーディングAIにも応用しようってわけです。次はこれも試してみたいですね。</p>\n\n<p>NousCoder-14Bはすでに「Hugging Face」でApache 2.0ライセンスの下、公開されています。実際に使ってみて、ネガティブプロンプト的な「除外キーワード」を工夫したり、コンテキストウィンドウを拡張したりしながら試行錯誤するのも楽しそう。ぜひ実際に試してみて、あなたのコーディング体験がどう変わるか教えてください！</p>\n\n<p><a href=\"https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in\" target=\"_blank\">参照元：VentureBeat AI - Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&q=30",
+  "source": "VentureBeat AI",
+  "sourceUrl": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+  "publishedAt": "2026-05-02T04:14:02.378Z",
+  "tags": [
+    "AI画像生成",
+    "VentureBeat AI",
+    "Stable Diffusion"
+  ]
+}
