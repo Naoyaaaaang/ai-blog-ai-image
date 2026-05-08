@@ -1,0 +1,14 @@
+{
+  "slug": "20260508-1778213533688",
+  "title": "AI画像生成の新しい可能性！ControlNet Union 2.1の実力検証",
+  "content": "<h2>Z-Image Turbo × ControlNet Union 2.1がマジで革命的です</h2>\n\n<p>最近ComfyUIで話題沸騰中の「Z-Image Turbo with ControlNet Union 2.1」（version 2602）を試してみたんですが、これ、本当にゲームチェンジャーですね。既にこのツールを使ってる人たちの間では「速度」「品質」「プロンプト忠実度」のバランスが最高だって評判だったんですけど、今回のアップデートでさらにパワーアップしてました。</p>\n\n<p>実際に生成してみたところ、何が一番テンション上がったかって、やっぱりキャラクターの構図を細かくコントロールできるようになったとこなんです。ControlNet（画像の構図やポーズを制御する機能）が統合されたおかげで、「このキャラはこの角度で、こういう手のポーズで」という指定が本当に細かくできるようになった。プロンプトだけじゃなく、参考画像から構図を学習させることで、目指した絵柄をより正確に生成できます。CFG（プロンプトへの忠実度）を7に設定したときの精度が特に素晴らしくて、ネガティブプロンプトに「low quality, blurry」を入れるだけで品質がグッと上がりました。</p>\n\n<h2>グレースケール画像の自動カラーリング機能が便利すぎる</h2>\n\n<p>でも個人的にここが一番ビックリしたのが、新機能の「グレースケール画像自動カラーリング」です。白黒のスケッチや線画を自動で着色してくれるんですよ。アナログで描いた絵をスキャンして、それをプロンプト「soft watercolor style」と組み合わせたら、本当に綺麗な水彩画タッチに仕上がっちゃった。デジタル作業の時間が劇的に短縮されます。</p>\n\n<p>キャラクターアニメ風な絵柄を作りたい人は、ControlNetで基本的な構図を固めてから、Samplerを「DPM++ SDE」に設定して生成するのがおすすめです。細部の質感がすごく良くなります。次は、複数キャラクターの配置制御もこの機能で試してみたいですね。</p>\n\n<p>ぜひ皆さんも実際に試してみてください！ComfyUIでZ-Image Turbo ControlNet Union 2.1を導入すれば、創作スピードと品質が一段階上がると思います。あなたの作品がどう変わるか、ぜひ見てみたいです！</p>\n\n<p style=\"margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd;\">\n<strong>参照元：</strong><br>\n<a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a>\n</p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=3688",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-05-08T04:12:13.688Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
