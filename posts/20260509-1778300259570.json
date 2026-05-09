@@ -1,0 +1,14 @@
+{
+  "slug": "20260509-1778300259570",
+  "title": "AI美女の肌が劇的に変わる！リアル肌生成の秘密",
+  "content": "<article>\n  <h2>AI美女インフルエンサーの肌がリアルになった！Skin Detailerがマジで優秀です</h2>\n  \n  <p>最近、FluxやSDXLでAIインフルエンサーを生成する人が増えてますよね。私も何度か試してるんですが、正直なところ、肌がプラスチック感満載というか…ゴム製人形みたいになっちゃう問題がずっと引っかかってました。高いCFG（プロンプトへの忠実度）で細部を詰めても、肌だけがテカテカしたままで。そこで見つけたのが、Stable Diffusionが公開した「Skin Detailer」というワークフロー。これマジで革命的です。</p>\n\n  <h2>プラスチック肌から卒業！リアルな肌質を再現するコツ</h2>\n  \n  <p>Skin Detailerは、生成したAIインフルエンサーの肌を後処理で自然にしてくれるComfyUIワークフローです。実際に試してみたところ、肌のテクスチャ感がめっちゃ改善されました。毛穴の細かさとか、微妙な色ムラとか、本物の人間らしい質感が出るんです。個人的にここが一番テンション上がったポイント。あの不自然なツルツルピカピカ感が消えて、生身の人間に近い肌になるんですよ。</p>\n\n  <p>使い方としては、まず通常のプロンプトで「beautiful woman, high quality skin」みたいに基本設定をして生成します。私の場合、Sampler（サンプリング方式）をEulerに設定してから、Skin Detailerワークフローにかけるとかなり良い結果が出ました。ネガティブプロンプトに「plastic skin, rubber texture」を入れておくことも忘れずに。これでワークフローの効果がさらに引き出される感じです。</p>\n\n  <h2>本気でAIインフルエンサーを作るなら必須ツール</h2>\n  \n  <p>このワークフローを使うには、Stable Diffusion公式サイトの会員になる必要があります。でもその手間を差し引いても、クオリティ向上の価値は絶対あります。実写的なAIモデルの肌質が欲しい人、SNS用の高品質なAIインフルエンサーを作りたい人は、ここを絶対にチェックしてください。次は、このワークフローをControlNet（構図制御）と組み合わせて、ポージングの自由度も高めてみたいと思ってます。</p>\n\n  <p>実は細部の肌質ってめちゃくちゃ重要で、ここが整うだけで全体の説得力が段違いになるんですよ。ぜひ実際に試してみてください！あなたのAIインフルエンサー作品、本当に見たいです。</p>\n\n  <p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/skin-detailer/\" target=\"_blank\">Skin Detailer: Realistic skins for AI influencers - Stable Diffusion Art</a></p>\n</article>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=9570",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/skin-detailer/",
+  "publishedAt": "2026-05-09T04:17:39.570Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
