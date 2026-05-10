@@ -1,0 +1,14 @@
+{
+  "slug": "20260510-1778387876517",
+  "title": "ComfyUI×ControlNet Union 2.1で画像生成を次元上昇させる",
+  "content": "<article>\n  <h2>Z-Image Turbo with ControlNet Union 2.1が登場！ComfyUIでキャラクター生成が超進化した</h2>\n  \n  <p>ついに来ました！Stable Diffusion関連のコミュニティで話題沸騰中の「Z-Image Turbo ControlNet Union 2.1 version 2602」を試してみたので、さっそくレポートさせていただきます。正直なところ、ここまで革新的なアップデートは久しぶりです。</p>\n  \n  <h2>速度と品質を両立させながらキャラクター制御が精密に</h2>\n  \n  <p>これまでZ-Image Turboを使っていた方なら、その高速性と優れた画質、そしてプロンプト忠実度（CFG値を調整することでプロンプトへの従順性を変更できます）の良さをご存知かと思います。ただ、キャラクターの構図や配置をもっと細かくコントロールしたいシーンってありませんか？そこが今回の改善点なんです。</p>\n\n  <p>新しいControlNetが搭載されたことで、キャラクター構成を細部までコントロール可能になりました。実際に試してみたところ、複数キャラクターが登場するシーンで「このキャラはここに、あのキャラはここに」という指定が驚くほど正確に反映されます。以前は手直しが必要だった箇所が、一発で決まるようになった感覚です。ポイントは、ControlNetのウェイト設定です。強すぎるとプロンプトの意図が失われるので、0.7～0.8くらいから試すことをおすすめします。</p>\n\n  <h2>グレースケール画像のカラーリング機能が便利すぎる</h2>\n\n  <p>個人的にここが一番テンション上がったポイントなんですが、今回のアップデートで「グレースケール画像の自動カラーリング」機能が追加されました。これまでは白黒のラフスケッチやモノクロ参考画像をカラー化する際、別のツールを使うか手作業での修正が必須でした。</p>\n\n  <p>ComfyUIのワークフローに組み込んで試してみたところ、想像以上に自然な色付けがされます。アニメ風なキャラクターなら、セル画的な鮮やかな配色に。リアル調なら落ち着いた色合いになります。ネガティブプロンプトに「desaturated」「low contrast」といった単語を入れることで、濃い色合いを避けることができるので、ここは調整のコツですね。</p>\n\n  <p>古い作品やクライアントから貰った白黒資料をカラー化したい、という場面で本当に役立ちます。Sampler（サンプリング方式）をDPM++ 2M Karrasにして、ステップ数を20～30に設定したところ、生成速度と品質のバランスが最高でした。</p>\n\n  <p>次はこれらの機能を組み合わせて、複雑なグループシーンの生成にも挑戦してみる予定です。ぜひ皆さんも実際に試してみてください！ComfyUIで新しい表現の可能性が広がること間違いなしです。あなたがこの機能で生成した作品、本当に見てみたいです。</p>\n\n  <p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>\n</article>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=6517",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-05-10T04:37:56.517Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
