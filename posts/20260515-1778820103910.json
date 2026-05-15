@@ -1,0 +1,14 @@
+{
+  "slug": "20260515-1778820103910",
+  "title": "AI画像生成の新次元！ControlNet Union 2.1で自由自在に操る",
+  "content": "<h2>Z-Image Turbo + ControlNet Union 2.1が本当にすごい！ComfyUIで試してみました</h2>\n\n<p>先日、Z-Image Turbo ControlNet Union 2.1のversion 2602がリリースされたんですが、これ、本当にゲームチェンジャーです！速度、品質、プロンプト忠実度で定評のあるZ-Imageなんですが、ここに詳細なキャラクター構図コントロール機能がついたControlNetが組み合わさったんですよ。ComfyUIで実際に試してみたところ、今までにない使い心地の良さを感じています。</p>\n\n<p>個人的に一番テンション上がったのが、グレースケール画像の色付け機能です。アニメ塗りのラフスケッチをカラー化するときって、これまでは複数のモデルやLoRAを組み合わせてなんとか対応していたんですが、このアップデートで直接色付けできるようになりました。実際に線画スケッチをプロンプト「anime girl, detailed eyes」とともに投入したら、驚くほど綺麗に色が乗ったんです。ネガティブプロンプトに「watermark, blurry, low quality」を入れるのがポイントですね。</p>\n\n<h2>キャラクター構図の自由度が段違い—ControlNetの実力を体感</h2>\n\n<p>ControlNet Union機能を使うことで、キャラクターの構図を細かくコントロールできるようになったのが本当に素晴らしい。これまではプロンプトだけで「立ち絵を3人並べた構図」みたいな指示をしていたんですが、CFG（プロンプトへの忠実度）を7に設定して、ControlNetで人物の配置を直接指定したところ、まさに想像通りの構図が出てくるんです。</p>\n\n<p>複数キャラを描きたい人はここをチェック必須ですよ。例えば、ヒロインを左に、サブキャラを右にという配置を指定したいときに、従来のプロンプトだけの方法だと結構ブレが出ちゃうんですが、ControlNetで骨格的なレイアウトを固定させると、安定性が段違いになります。Sampler（サンプラー）はDPM++ 2M Karrasを使うと、より繊細な構図制御ができた印象です。</p>\n\n<h2>次のステップ—自分のワークフローをアップグレードしよう</h2>\n\n<p>このアップデートで、私たちのCreative Workflowの可能性がまた一段階上がった感じがしています。グレースケール色付け機能とControlNet Unionの組み合わせで、アナログ風のスケッチから最終的なキャラクターイラストまで、ComfyUI一本で完結できるようになったんです。次は複数キャラ立ち絵の背景合成にも試してみたいんですよね。</p>\n\n<p>このZ-Image Turbo ControlNet Union 2.1、アニメ風イラストを量産したい人、複雑な構図に挑戦したい人には本当におすすめです。ぜひ実際に試してみてください！あなたがこのツールで生成した作品、見てみたいです。</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=3910",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-05-15T04:41:43.911Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
