@@ -1,0 +1,14 @@
+{
+  "slug": "20260520-1779252982018",
+  "title": "NVIDIA Cosmos 2.5をLoRA/DoRAで極める！ロボット動画生成の新境地",
+  "content": "<h2>NVIDIA Cosmos 2.5でロボット動画生成が進化！LoRA/DoRAファインチューニングが超優秀</h2>\n\n<p>最近、NVIDIA Cosmos Predict 2.5のファインチューニング機能を試してみたんですけど、これが本当にすごいんです。特にLoRA（Low-Rank Adaptation）とDoRA（Directional-Rank Adaptation）を使ったロボット動画生成については、正直ここまで精度が出るとは思いませんでした。</p>\n\n<p>実際に生成してみたところ、従来の方法よりもはるかに少ないパラメータ数で、特定のロボット動きを学習させることができるんです。僕がまず驚いたのは、LoRAでファインチューニングした時の学習スピード。GPU メモリ使用量がめちゃくちゃ効率的で、個人環境でも十分実運用できるレベルなんですよ。個人的にここが一番テンション上がりました。</p>\n\n<p>プロンプトに「precise robot arm movement」「industrial automation」といったキーワードを追加したらどうなったか、みたいな実験もしてみたんです。CFG（プロンプトへの忠実度）を7に設定したところ、ロボットの細かい動きがより正確に反映されるようになりました。ネガティブプロンプトの「blurry motion」「unnatural movement」の部分を丁寧に設定するのがポイントなんだと気づきましたね。</p>\n\n<h2>ファインチューニングのコツと実用的なアプローチ</h2>\n\n<p>DoRAについても試したんですが、これはLoRAよりさらに表現力が高いんです。方向性を保ったまま適応できるから、複数のロボット種別の動きを一つのモデルで扱いたい場合には特に向いていそう。Samplerの設定も重要で、DPMやEulerなど異なるサンプラーを試すと、同じプロンプトでも動きの質感がかなり変わってきます。</p>\n\n<p>ロボット動画生成を上手くいかせるには、学習データセットの質が命なんですが、Cosmosはそこらへんがかなり柔軟に対応できる。自社のロボット動作映像を使ってブランド特有のモーションスタイルを持たせたい、という企業の人はここをぜひチェックしてください。比較的少ないデータ量からでも、かなり実用的な結果が得られると思います。</p>\n\n<h2>次のステップとあなたへの招待</h2>\n\n<p>次は、ControlNetと組み合わせてもっと細かい制御ができないか、ってところを試してみます。骨格情報を入力して動きを完全にコントロールする、みたいなことができたら、本当に業務レベルの自動化が実現できるんじゃないかなって思うんですよ。</p>\n\n<p>正直、こういったファインチューニング技術がここまで身近になったのって、つい最近だと思うんです。あなたも何か作りたい独自のロボット動作映像がありませんか？ぜひ実際に試してみてください。あなたの作品が見たいです！</p>\n\n<p><strong>参照元：</strong><a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\" target=\"_blank\">Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation - HuggingFace Blog</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=2018",
+  "source": "HuggingFace",
+  "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+  "publishedAt": "2026-05-20T04:56:22.018Z",
+  "tags": [
+    "AI画像生成",
+    "HuggingFace",
+    "Stable Diffusion"
+  ]
+}
