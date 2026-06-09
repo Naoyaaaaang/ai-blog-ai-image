@@ -1,0 +1,14 @@
+{
+  "slug": "20260609-1780967730477",
+  "title": "「ControlNet Union 2.1」で自由自在！ComfyUIの新しい画像生成の可能性",
+  "content": "<h2>Z-Image Turbo × ControlNet Union 2.1が降りてきた！これは本当にゲームチェンジャーです</h2>\n\n<p>つい先日、Z-Image Turbo ControlNet Union 2.1のバージョン2602がリリースされたんですが、もう使った人たちの間で「これ神アップデート」の声が満ちあふれていますね。私も実際に試してみたんですが、正直なところ期待以上でした。</p>\n\n<p>Z-Image Turboをこれまで使ってきた人なら分かると思うんですが、生成速度と品質のバランスが本当に優秀なんです。でも「もっときめ細かくキャラクターの構図を制御したい」というジレンマがありました。それが今回のControlNetアップデートで一気に解決した感じです。実際にプロンプトに「standing pose, detailed clothing」と明確に指定したうえでControlNetで骨格情報を流し込んでみたところ、従来よりも圧倒的にキャラクターの構図が狙い通りになるんですよ。個人的にここが一番テンション上がりました。</p>\n\n<h2>グレースケール画像の自動着色機能が地味に便利すぎる</h2>\n\n<p>でもね、個人的に一番「これ何に使おう…」と考えてしまったのが、グレースケール画像を自動で着色できる新機能です。これまで白黒のスケッチや古い写真を着色したいときは、別のツールを組み合わせたり手動でやったりしていたんですが、ComfyUIのワークフロー内で完結するようになったんですよ。実際に古い漫画のページをスキャンして流し込んでみたら、かなり自然な色付けがされました。もちろんControlNetで色合いの方向性を指定することもできるので、「このキャラはこういう色合いで」という細かい調整も可能です。</p>\n\n<p>ControlNetを使う際のポイントとしては、CFG（プロンプトへの忠実度）を7〜8の範囲に設定するのがおすすめです。高すぎるとControlNetの指示が強すぎて不自然になることもあるので、色々試しながら自分の好みを見つけるのが大事ですね。ネガティブプロンプトには「deformed, blurry, low quality」といった基本的な外し要素に加えて、「unwanted color artifacts」を入れると着色ムラを減らせます。</p>\n\n<h2>ComfyUIワークフローをアップグレードしてみよう</h2>\n\n<p>ComfyUI を使っているなら、このアップデートは絶対に導入する価値があります。セットアップも比較的シンプルで、ControlNet Union 2.1を新しくインストールして、既存のワークフローに組み込むだけ。次はこれを使ってアニメキャラの背景付きイラストやカラーリング作業を自動化する流れを試してみる予定です。</p>\n\n<p>キャラクターの細かい構図制御をしたい人、古い写真や白黒イラストの着色に困ってる人、とにかく生成クオリティを上げたい人——みんなの「欲しかった機能」が詰まってるアップデートだと思います。ぜひ実際に試してみてください！あなたの作品がどう変わるか、ぜひ見てみたいです。</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=477",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-06-09T01:15:30.477Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
