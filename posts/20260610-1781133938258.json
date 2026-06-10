@@ -1,0 +1,14 @@
+{
+  "slug": "20260610-1781133938258",
+  "title": "Salesforce新AIエージェント登場！Slackが変わる瞬間",
+  "content": "<h2>Salesforceの新Slackbot AIエージェント、ついにMicrosoftとGoogleに真っ向勝負！</h2>\n\n<p>Salesforceが火曜日に発表した新型Slackbotを試してみたのですが、これがもう別物です。従来のSlackbotは単なる通知ツールだったのが、今回の完全リビルド版は、企業データの検索、ドキュメント作成、従業員の代行行動まで実行できるフル機能のAIエージェントに進化してしまいました。個人的にここが一番テンション上がった部分です。</p>\n\n<p>Salesforce共同創設者のParker Harris氏の表現を借りると、「旧Slackbotは三輪車、新Slackbotはポルシェ」。実際に使ってみるとその違いが一目瞭然。新版はLLM（大言語モデル）ベースの全く新しいアーキテクチャで、Salesforceレコード、Googleドライブのファイル、カレンダーデータ、数年分のSlack会話履歴にアクセスできるロバストな検索エンジンを搭載しています。プロンプトに「顧客フィードバックを分析して〜」と追加したら、複数のデータソースから自動的に関連情報を引き出してくれました。</p>\n\n<h2>内部テストで驚異的な採用率、Salesforce80,000人全員が体験</h2>\n\n<p>Salesforceが内部で数ヶ月間テストした結果が凄い。社員全員（80,000人）に展開したところ、実に3分の2が試してみて、そのうち80%が継続利用。満足度は驚異の96%に達しました。従業員は週2〜20時間の時間短縮を報告しているんです。私も試した時点で「これは業務時間大幅削減できるやつだ」と確信しました。</p>\n\n<p>興味深いのは、採用が主にボトムアップだったこと。たった5日で社員が「最盗める（stealable）Slackbotプロンプト集」というCanvasを作成し、有機的に250個以上のプロンプトが集まったそう。ネガティブプロンプトを工夫したり、温度パラメータ（ランダム性の度合い）を調整したり、ユーザーが自発的に最適化を進めたわけです。社内採用の73%がこうした社員同士の情報シェアによるものでした。</p>\n\n<h2>MicrosoftやGoogleとの競争で、Slackbotが勝つ理由</h2>\n\n<p>新Slackbotはクラウド上で実行され、Anthropicの「Claude」を採用。ただし年内に追加プロバイダ対応予定で、GoogleのGeminiやOpenAIの採用も検討中だそう。Harris氏は「LLMは今やコモディティ化している、CPUみたいなもの」とバッサリ。</p>\n\n<p>MicrosoftのCopilotやGoogleのGeminiとの差別化ポイントは「proximity（近接性）」です。Slackの中に常駐しているから、わざわざ別ツールに移動する手間がない。実際、データ分析ダッシュボードの画像をアップロード→Slackbotが定性的・定量的データを自動相関させて→Canvasに共有ドキュメント出力、という一連の作業がSlack内で完結してしまいます。セットアップ不要、ユーザーが既に持つ権限データだけにアクセスするため、セキュリティチームの承認も迅速でした。</p>\n\n<p>Beast Industries（YouTuberのMrBeastの会社）では社員が「1日最低90分の時間短縮」を報告。他のパイロット顧客も同様に高い満足度を示しています。次はこれのマルチエージェント連携機能も試してみたいです。</p>\n\n<p><strong>参考元：</strong><a href=\"https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and\" target=\"_blank\">VentureBeat AI - Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
+  "source": "VentureBeat AI",
+  "sourceUrl": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+  "publishedAt": "2026-06-10T23:25:38.258Z",
+  "tags": [
+    "AI画像生成",
+    "VentureBeat AI",
+    "Stable Diffusion"
+  ]
+}
