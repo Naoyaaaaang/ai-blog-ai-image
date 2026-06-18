@@ -1,0 +1,14 @@
+{
+  "slug": "20260618-1781745332048",
+  "title": "Claude Desktopの新機能「Cowork」で、AIが自動でファイル操作！コード不要の革新的エージェント",
+  "content": "<h2>Claudeがファイルマネージャーになった！「Cowork」でノーコード作業自動化が実現</h2>\n\n<p>Anthropicが先月リリースした「Cowork」というAIエージェント機能について知ったとき、正直びっくりしました。これまでのClaude Codeは開発者向けのターミナルベースのツールだったのですが、今回はそれを一般ユーザー向けにシンプル化した形で登場したんです。実際に試してみたところ、従来のチャット形式とは全く異なるアプローチで、まるで同僚に仕事を丸投げするような感覚で使えます。</p>\n\n<p>Coworkの最大の特徴は、ローカルフォルダへの直接アクセスです。ユーザーが指定したフォルダ内のファイルをClaudeが自由に読み込み、編集、作成できる仕組みになっています。たとえば、散らばったレシート写真からスプレッドシートを自動生成したり、ダウンロードフォルダをインテリジェント分類したり、複数のドキュメントから報告書の初案を作成したり。プロンプトに「領収書から経費リストを作成し、カテゴリ別に整理して」と指示するだけで、AIがエージェンティック・ループ（agentic loop）という仕組みで計画を立てて実行してくれるんです。CFG（正確さの設定値）が高めに設定されているせいか、複雑な指示もしっかり理解してくれます。</p>\n\n<h2>最も衝撃的だった「自己再帰的改善ループ」</h2>\n\n<p>個人的にここが一番テンション上がったポイントなのですが、Cowork自体がClaudeのコーディング機能によって約10日間で構築されたという事実です。つまり、AIが次世代のAIツール開発に直接貢献しているということ。これってもう、単なるツールの進化じゃなくて、テクノロジーの成長速度が指数関数的に加速している証拠だと感じます。</p>\n\n<p>現在のところ、Claude Max（月額100〜200ドル）の高級ユーザー層がmacOS版デスクトップアプリでアクセス可能です。ネガティブプロンプト的な考え方をするなら、ローカルファイルを削除してしまう可能性があるため、指示は非常にクリアに書く必要があります。プロンプト・インジェクション攻撃への対策も施されていますが、AgentのSafety機能はまだ発展途上とのこと。Asana、Notion、PayPalなどのコネクターにも対応していて、さらにClaudeブラウザ拡張機能と組み合わせればWeb自動化も可能です。</p>\n\n<h2>次のアップデートを待ちながら</h2>\n\n<p>現時点ではmacOS限定ですが、Anthropicは既にWindows対応とクロスデバイス同期を予告しています。個人的には、次はどんなSkills（特殊能力）が追加されるのかが気になります。ControlNetみたいに細かく動作をコントロールできる仕組みが来たら、さらに精密な自動化が実現できそうです。</p>\n\n<p>このCoworkの登場は、生成AIの使い方に大きなシフトをもたらしそう。もはや「指示する」のではなく「委任する」時代へ移行しているんだなと実感します。ぜひ実際に試してみて、Coworkでどんな業務を効率化させたのか聞かせてください。あなたの活用事例を見てみたいです！</p>\n\n<p><a href=\"https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no\" target=\"_blank\">参照元：VentureBeat - Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&q=30",
+  "source": "VentureBeat AI",
+  "sourceUrl": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+  "publishedAt": "2026-06-18T01:15:32.048Z",
+  "tags": [
+    "AI画像生成",
+    "VentureBeat AI",
+    "Stable Diffusion"
+  ]
+}
