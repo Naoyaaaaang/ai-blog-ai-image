@@ -1,0 +1,14 @@
+{
+  "slug": "20260619-1781831716103",
+  "title": "AI落書き生成機で街を彩ろう！",
+  "content": "<h2>ローカルAIグラフィティジェネレーター、試してみたら最高だった！</h2>\n\n<p>先日、Stable Diffusionの公式サイトで「Local AI Graffiti Generator」というツールを見つけて、さっそく自分のPCで試してみました。これがもう、想像以上の仕上がりで興奮が止まりません！</p>\n\n<p>このジェネレーターは、ComfyUIというAI画像生成ツールをローカル環境で動かして、本格的なグラフィティアート作品を生成できるというもの。何がいいって、めちゃくちゃ使いやすいんです。複雑なノード構成を隠して、必要な入力フィールドだけを表示してくれるサブグラフを使っているので、初心者でも直感的に操作できました。</p>\n\n<h2>実際に生成してみた感想と工夫のポイント</h2>\n\n<p>実際に生成してみたところ、Qwen Imageという画像認識技術を活用しているおかげで、細かなディテールまで見事に表現されるんです。プロンプトに「urban street style」「vibrant colors」「3D effect」といった指定を入れたら、本当にリアルなグラフィティアートが出てきました。個人的にここが一番テンション上がりました。</p>\n\n<p>生成の質を高めるために、CFG（プロンプトへの忠実度）を7から8に調整してみたんですが、より指定したスタイルに近い作品が生成されるようになりました。また、ネガティブプロンプトの「blurry, low quality, distorted」の部分を工夫することで、クオリティの低い出力を減らせます。ポイントは、避けたい要素を具体的に列挙することですね。</p>\n\n<p>グラフィティアート特有の立体感やスプレーペイント感を再現したい場合は、Samplerの設定も重要です。「DPM++ 2M」あたりを試してみると、より自然な色の段階的変化が得られました。次はControlNetを使って、特定の構図パターンをコントロールしながら生成することも試してみたいと思っています。</p>\n\n<h2>こんなクリエイターにオススメ！</h2>\n\n<p>ストリートアートやグラフィティのデザイン案を素早く複数パターン生成したい人、あるいはLORA（Low-Rank Adaptation）を使ってオリジナルスタイルを学習させたいという人には、本当にうってつけです。ローカル実行なので、サーバーに依存せず、何度でも試行錯誤できるのも最高。</p>\n\n<p>ぜひ実際に試してみてください！あなたが生成したグラフィティアート作品がどんな仕上がりになるのか、本当に興味があります。Stable Diffusionのコミュニティでも共有すれば、きっと素敵なフィードバックがもらえると思いますよ。</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/graffiti-generator/\" target=\"_blank\">Local AI Graffiti Generator - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=6103",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/graffiti-generator/",
+  "publishedAt": "2026-06-19T01:15:16.103Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
