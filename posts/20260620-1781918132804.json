@@ -1,0 +1,14 @@
+{
+  "slug": "20260620-1781918132804",
+  "title": "Goose無料で全部できる！Claude Codeの代替技術",
+  "content": "<h2>Claude Codeの月額200ドルに対抗！Gooseという無料のAI開発ツールが話題沸騰中</h2>\n\n<p>最近、AI画像生成の界隈でも注目を集めている話題があります。それは、高額なサブスクリプション型のAIツールに対する「無料の代替案」の登場です。今回紹介するGooseは、プログラミング向けのツールですが、このエコシステムの転換点を示す出来事として、クリエイター界でも大きな波紋を呼んでいるんです。</p>\n\n<p>Anthropicが提供しているClaude Codeは確かに魅力的です。月額20ドルから200ドルの価格帯で、自動的にコードを書いたりデバッグできる機能は素晴らしい。ただし、使ってみると分かるのですが、無料プランは機能制限が厳しく、Proプランでも5時間ごとにプロンプト数がリセットされてしまう。実際に集中してコーディングすると、数十分で上限に達してしまう人も多いんです。個人的にここが一番テンション下がるポイントでした。</p>\n\n<h2>ローカルで完全無料！Gooseの実装方法とワークフロー</h2>\n\n<p>ここで登場するのがBlock（旧Square）が開発した「Goose」です。最初聞いた時は「本当に同じことができるの？」と疑ったのですが、実際に試してみたところ、かなり実用的です。何が素晴らしいかというと、ローカルマシン上で完全に動作するので、クラウドへのデータ送信がゼロ。つまり、あなたのコードは100%あなたのパソコンの中に留まるんです。</p>\n\n<p>セットアップもそこまで複雑じゃありません。Ollamaという無料ツールをインストールして、Qwenなどのオープンソースモデルをダウンロード。その後Gooseを設定してOllamaと繋ぐ——これで完成です。ネガティブプロンプトではありませんが、「何も制限がない環境」を作ると、こんなに効率が上がるんだなと実感しました。プロンプトに詳細な要件を追加すれば、AIの応答精度も格段に上がります。</p>\n\n<p>必要なスペックとしては、32GBのRAMが理想的。私のMacBook Proで試したところ、スムーズに動作しました。ただし、スペックに不安がある人は、より小さなモデルから始めるのがポイント。最初は控えめな設定（CFGやSamplerの値を調整する感覚で）でテストして、徐々にスケールアップするのがおすすめです。</p>\n\n<h2>プライバシー重視派・オフライン作業派の人は絶対チェック</h2>\n\n<p>個人的にGooseで一番テンション上がったのは「飛行機の中でも使える」という点。オフライン環境で完全に動作するので、インターネット接続がなくても作業が続けられるんです。これってクリエイティブワークには本当に大事ですよね。</p>\n\n<p>GitHubを見ると、Gooseは26,100以上のスターを獲得していて、362人のコントリビューターと102回のリリース履歴があります。これだけ活発に開発されているオープンソースプロジェクトって、信頼度が違う。次は私も、より複雑なプロジェクトでGooseを試してみます。</p>\n\n<p>ぜひあなたも実際に試してみてください！個人的には、この「無料で本気のツール」というアプローチが好きです。あなたの作成した成果物や、使用感のフィードバックを聞かせてもらえたら嬉しいです。</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free\" target=\"_blank\">VentureBeat - Claude Code costs up to $200 a month. Goose does the same thing for free.</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
+  "source": "VentureBeat AI",
+  "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+  "publishedAt": "2026-06-20T01:15:32.804Z",
+  "tags": [
+    "AI画像生成",
+    "VentureBeat AI",
+    "Stable Diffusion"
+  ]
+}
