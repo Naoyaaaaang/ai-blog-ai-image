@@ -1,0 +1,14 @@
+{
+  "slug": "20260624-1782263729865",
+  "title": "AI画像生成を次のレベルへ！ControlNet Union 2.1で無限の表現力",
+  "content": "<article>\n<h2>Z-Image Turbo ControlNet Union 2.1がComfyUIで使えるようになった！これは本当に便利です</h2>\n\n<p>最近、Stable Diffusionコミュニティで話題になっているZ-Image Turbo ControlNet Union 2.1（バージョン2602）を早速試してみました。正直なところ、これはゲームチェンジャーですね。すでにZ-Image Turboを愛用していたんですが、このControlNetが加わることで、キャラクターの構図や配置を細かくコントロールできるようになったんです。</p>\n\n<p>実際に生成してみたところ、今までの「高速で質感も良いけど、ポーズのディテールは運次第」という課題がかなり改善されました。特に複数キャラクターを配置する場合、ControlNetで骨格情報を反映させることで、意図した構図がきちんと再現されるようになった。プロンプトに「dynamic pose（ダイナミックなポーズ）」と書いても勝手に変形されることがなくなったのは本当にストレス軽減です。</p>\n\n<h2>グレースケール画像の自動着色機能が地味にすごい</h2>\n\n<p>このアップデートで個人的に一番テンション上がったのは、グレースケール画像（モノクロ画像）を自動で着色してくれる新機能です。これまで白黒のラフスケッチやアーティスト作品をカラー化する場合、別のツールを使うか、手動で色付けしていたんですが、Z-Image Turboのこの機能なら一発です。</p>\n\n<p>実際に試したのは、鉛筆画のキャラクターイラスト。それをグレースケール化してからこのControlNetに通したら、光と影の情報を保ったまま自然な色付けがされました。CFG（プロンプトへの忠実度）を7に設定したところ、プロンプトで指定した「温かみのある光」や「青系の衣装」がちゃんと反映されたんです。背景のネガティブプロンプトに「overdone, oversaturated」を入れることで、不自然な過彩色を防ぐことができたのもポイント。</p>\n\n<h2>ComfyUIでの使用方法と実用的なコツ</h2>\n\n<p>ComfyUIで使う場合の流れはシンプルです。Z-Image Turboモデルを読み込んで、ControlNetノードでUnion 2.1を接続するだけ。ただし、キャラクター描写を細かくしたい人は、ControlNetの強度（strength）を0.7～0.9の範囲で調整することをお勧めします。強すぎるとプロンプトの自由度が失われて、弱すぎると制御が効かなくなるから、自分の用途に合わせて試行錯誤するのが大事ですね。</p>\n\n<p>次のプロジェクトでは、このControlNetを使ってキャラクターシートを一括生成してみようと思っています。異なるポーズや表情を安定させながら同じキャラを作り分けるのに最適なツールになりそうです。ぜひあなたも実際に試してみてください。生成した作品がどんな仕上がりになったか、ぜひコミュニティで共有していただきたいです！</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>\n</article>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=9865",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-06-24T01:15:29.865Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
