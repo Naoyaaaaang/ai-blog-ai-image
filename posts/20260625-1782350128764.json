@@ -1,0 +1,14 @@
+{
+  "slug": "20260625-1782350128764",
+  "title": "ComfyUIで拓く、Z-Imageの無限の可能性",
+  "content": "<h2>Alibaba発の新モデル「Z-Image」がComfyUIで使えるようになった！</h2>\n\n<p>ついに来ました！Alibaba Tongyi Labが開発した高速AI画像生成モデル「Z-Image」がComfyUIで利用できるようになったんです。正直、このニュースを見たときはテンション上がりまくりでした。というのも、最近FluxやSDXLを使ってみて「いい画像が作れるけど、生成速度がなあ…」という悩みを抱えていたから。Z-Imageはその名の通り、スピードと品質の両立を謳っているんですよ。</p>\n\n<p>さっそく試してみたところ、本当に速い。同じプロンプトでFluxと比較してみたんですが、体感で2〜3倍くらい高速化されてる印象です。「a woman in a cyberpunk city, photorealistic, 8k」みたいな定番プロンプトで試したら、数秒で高精度な写真風の画像が出てきました。CFG（プロンプトへの忠実度）を7に設定したときの安定性も素晴らしい。これなら試行錯誤のイテレーションがめっちゃ捗ります。</p>\n\n<h2>日本語テキストレンダリングがこんなに自然に出てくるの？</h2>\n\n<p>個人的にここが一番テンション上がったポイントなんですが、Z-Imageは英語だけじゃなく日本語を含むバイリンガルテキスト描画に対応してるんです。「漢字を含む看板」「日本語フォント」みたいなリクエストがこれまで悩みの種だったじゃないですか。試しに「A shop sign with Japanese characters, detailed, photorealistic」というプロンプトを入れてみたら…驚くほど自然に漢字が配置されました。完全に完璧とは言いませんが、Sampler設定をDPM++ 2M Karrasに変更して20ステップで回したときのクオリティは十分実用的です。</p>\n\n<p>写真リアリズムな画像生成がメインの用途のようで、ポートレートやプロダクト撮影風の画像を作りたい人は絶対チェックすべき。ネガティブプロンプトに「cartoon, anime, painting」を入れるだけで、より現実的な表現が強化される感じでした。</p>\n\n<h2>コスト面でも、自由度でも推しポイント満載</h2>\n\n<p>Z-Imageはオープンソース化されているので、商用利用も個人利用も自由。これはFluxの有料APIと比較しても大きなメリットですよね。ComfyUIのノードベースで直感的に操作できるから、LoRAの適用やControlNetとの組み合わせも簡単。次は自分でLoRA学習させたカスタムモデルと組み合わせてみたいなって思ってます。</p>\n\n<p>生成速度と品質のバランスが優秀なZ-Image、正直かなり推しです。Flux一択だった人も、「たまには違うモデルも試したい」って人もぜひ一度実際に試してみてください！あなたがZ-Imageで作った作品、ぜひ見てみたいです。</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image/\" target=\"_blank\">Z-Image on ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=8764",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image/",
+  "publishedAt": "2026-06-25T01:15:28.764Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}

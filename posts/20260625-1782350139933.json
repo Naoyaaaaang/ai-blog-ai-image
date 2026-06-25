@@ -1,0 +1,14 @@
+{
+  "slug": "20260625-1782350139933",
+  "title": "AI美女の肌を極限までリアルに！Skin Detailer最新技術",
+  "content": "<article>\n  <h2>AI influencerのスキンテクスチャをリアルに！「Skin Detailer」で激変した</h2>\n\n  <p>最近、Flux や SDXL でAIインフルエンサーを生成するのにハマっているんですけど、正直ずっと悩んでいたことがあるんです。肌の質感がどうしてもプラスチックっぽい、ラバーみたいに見えちゃう問題。いい顔立ちで生成できても、肌が不自然だと全体の魅力が半減してしまう…。そんなモヤモヤを抱えていた矢先に見つけたのが「Skin Detailer」というワークフロー。正直、試してみてビックリしました。</p>\n\n  <h2>ComfyUIワークフローで肌をディテールアップ</h2>\n\n  <p>このSkin Detailerは、Stable Diffusion公式の情報によると、すでに生成したAIインフルエンサーの肌をより現実的にしてくれるComfyUIのワークフローなんです。実際に使ってみたところ、元の画像と比較すると、毛穴の質感やお肌の透明感が一段階上がる感じ。個人的にここが一番テンション上がりました。CFG（プロンプトへの忠実度）を調整したり、Samplerの選択で微調整できるのも地味に便利です。</p>\n\n  <p>ただし、このワークフローをダウンロードするにはサイトのメンバーになる必要があります。無料会員でアクセスできるコンテンツもありますが、こういった高度なディテール調整ツールはメンバー限定になってるんですね。個人的には、YouTubeなどで活動するVTuberやバーチャルキャラクターのクリエイターさんたちには超おすすめできる内容だと思います。</p>\n\n  <h2>肌の質感を極めるなら、このワークフローをチェック</h2>\n\n  <p>リアルな肌表現を求めるクリエイターたちにとって、このようなディテール強化ツールは本当に有難い。プロンプトに「realistic skin texture」や「detailed skin」を追加するだけでなく、こういった後処理的なワークフローを組み合わせることで、さらにワンランク上の品質が実現できます。ネガティブプロンプトで「plastic」「rubber」「doll」といった不自然なワードを除外するのがポイントなんですが、それでもSkin Detailerを使うと差が明らかです。</p>\n\n  <p>次はこれも試してみたいんですけど、ControlNetでライティングを調整しながらこのワークフローを組み込んだら、さらにプロフェッショナルな仕上がりになるんじゃないかな…と思ってます。AI画像生成の世界は本当に奥が深い。ぜひ実際に試してみてください！あなたが作成したリアルな肌質のAIインフルエンサーを見てみたいです。</p>\n\n  <p><a href=\"https://stable-diffusion-art.com/skin-detailer/\">参照元：Stable Diffusion Art - Skin Detailer: Realistic skins for AI influencers</a></p>\n</article>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=9933",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/skin-detailer/",
+  "publishedAt": "2026-06-25T01:15:39.933Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
