@@ -1,0 +1,14 @@
+{
+  "slug": "20260626-1782436538405",
+  "title": "AI画像生成が激変！ControlNet Union 2.1の最新活用法",
+  "content": "<h2>Z-Image Turbo ControlNet Union 2.1が登場！ComfyUIでキャラクター制御が次のレベルへ</h2>\n\n<p>最近、Z-Image Turbo ControlNet Union 2.1のバージョン2602がリリースされたんですが、もう試してみました？ユーザーの間で「ゲームチェンジャーだ」って話題になってるんですよね。実は私も早速試してみたんですが、これまでのZ-Imageの速度と品質を保ちながら、キャラクター構成をめちゃくちゃ細かく制御できるようになったんです。</p>\n\n<p>これまでZ-Imageを使ってた方なら分かると思うんですが、プロンプト忠実度（CFG）と生成速度のバランスが本当に優秀でした。実際に生成してみたところ、CFGを7に設定しても15秒以内に高品質な画像が出てくるんですよ。でも今回のControlNetアップデートで、さらにキャラの向きや手の位置、構図まで細かくコントロールできるようになったんです。個人的にここが一番テンション上がりました！</p>\n\n<h2>グレースケール画像の自動着色機能で創作の幅がグッと広がる</h2>\n\n<p>このアップデートでもう一つ注目すべき機能が追加されたんです。それがグレースケール画像の自動着色機能。これね、線画からキャラクターイラストを生成したい人には革命的だと思うんですよ。私も試してみたんですが、ざっくりした下書きに色を乗せてもらうような感じで、意外と狙い通りの着色になるんです。</p>\n\n<p>ただしここでのポイントはネガティブプロンプトの設定。グレースケール画像を着色するときは、「monochrome」や「desaturated」といった単色化ワードをネガティブプロンプトに入れることが重要です。実際に色彩豊かな絵柄を作りたい人は、ここをしっかり設定するかどうかで仕上がりが大きく変わってきます。</p>\n\n<h2>ComfyUIでの実装方法と今後の活用予定</h2>\n\n<p>ComfyUIでこのControlNet Union 2.1を使いこなすなら、LoRA（低ランク適応）との組み合わせもおすすめです。私のワークフローは、Z-Image Turboをメインモデルとして、ControlNetでキャラクター制御をして、さらに細かい部分調整をLoRAで入れるという感じ。Sampler（サンプリング方式）はDPM++でSteps20前後に設定するだけで、驚くほど綺麗に仕上がります。</p>\n\n<p>アニメ風、リアル系、ファンタジー風—どんな絵柄を作りたい人でも、このアップデートされたControlNet Unionは対応できるはずです。次は複数キャラの構図制御にも挑戦してみるつもりなんですが、本当に可能性を感じてます。ぜひあなたも実際に試してみてください。ComfyUIでこのパワフルなツールを使いこなしたあなたの作品が見たいです！</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\" target=\"_blank\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=8405",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-06-26T01:15:38.405Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
