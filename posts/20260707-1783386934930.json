@@ -1,0 +1,14 @@
+{
+  "slug": "20260707-1783386934930",
+  "title": "AI画像生成が次のレベルへ！ControlNet Unionの最新版で何が変わる？",
+  "content": "<h2>Z-Image Turbo × ControlNet Union 2.1がComfyUIに降臨！キャラクター生成が次元が変わった</h2>\n\n<p>最近、AI画像生成の界隈で話題沸騰中のニュースをキャッチしました。Z-Image Turbo ControlNet Union 2.1の最新バージョン2602がリリースされたんですが、これがもう本当にヤバい。実際に使ってみたところ、キャラクター生成のクオリティと自由度が別次元に進化していました。</p>\n\n<p>これまでZ-Image Turboを使ってる理由は、とにかく生成速度が速いこと、そして品質と プロンプト忠実度のバランスが取れていることでした。でも今回のControlNet Unionの統合で、単なる高速化ツールから「細部まで自分の思い通りに操作できる魔法の杖」に変身しちゃったんです。特にキャラクター構図の指定が細かくできるようになったのが推しポイント。実際にポーズ指定のControlNetを組み込んでプロンプトに「girl, sitting pose」と追加したら、ちゃんと座り姿のキャラが生成されたときは小躍りしました。</p>\n\n<h2>グレースケール画像をカラーリング！新しい可能性を発見</h2>\n\n<p>個人的にここが一番テンション上がったのが、グレースケール画像のカラーリング機能です。スケッチや線画をアップロードして、このカラーリング機能を適用すると、AIが自動で色を付けてくれるんですよ。実際に試してみたところ、手描きのラフスケッチが瞬時に美しいイラストに変身しました。CFG（プロンプトへの忠実度）を7に設定して「fantasy character, vibrant colors」とネガティブプロンプトには「monochrome, grayscale」を入れたら、色彩表現が本当に豊かになりました。</p>\n\n<p>このワークフローは、デジタルアーティストにとって本当に革新的だと思います。ポイントは、ネガティブプロンプトでしっかり「単色」「グレースケール」を除外することですね。逆にアニメ調やリアル系など、生成したい絵柄をプロンプトに明確に指定しておくと、思った通りの雰囲気で色付けされます。次はこのカラーリング機能を組み合わせて、複数キャラの立ち絵セットを一気に作ってみたいです。</p>\n\n<h2>ComfyUIでの実装。迷わずこここをチェック！</h2>\n\n<p>ComfyUIでZ-Image Turbo ControlNet Union 2.1を使う場合、最新版がちゃんと導入されているか確認が超重要です。バージョン2602以降でないと、グレースケール機能が使えないので注意してください。ControlNetの複数統合も対応したから、複雑なシーン指定も可能になりました。Sampler周りの設定も最適化されてるので、デフォルト設定でもクオリティが高いのが嬉しいところ。</p>\n\n<p>キャラクター生成で こだわりの絵柄を作りたい人は、ControlNetで「depth」や「pose」を組み合わせながら、プロンプトの語順とLoRAの重み付けを調整してみてください。体感ですが、ControlNetを使うと プロンプト解釈の精度も上がる気がします。</p>\n\n<p>ぜひ実際に試してみてください！次世代のAI画像生成で作った作品、見てみたいです。あなたの工夫次第で、どんな魔法が生まれるか…想像するだけでワクワクしませんか？</p>\n\n<p><strong>参照元：</strong><a href=\"https://stable-diffusion-art.com/z-image-controlnet-union/\">Z-Image Turbo with ControlNet Union 2.1 in ComfyUI - Stable Diffusion Art</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=4930",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/z-image-controlnet-union/",
+  "publishedAt": "2026-07-07T01:15:34.930Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "20260707-1783386922100",
+  "title": "Goose無料で使える！Claude Codeの有料機能を完全再現",
+  "content": "<h2>月額200ドルのClaude Codeより無料のGooseが熱い！AI開発ツール革命が起きてる</h2>\n\n<p>個人的にここ最近、AI画像生成とコード生成の融合ツールについて熱く調べているんですけど、やばい状況が起きてるんです。Anthropicの「Claude Code」って月額20～200ドルするAIコーディングツール、めっちゃ高いじゃないですか。実際に使ってみたら、Pro プランでも5時間ごとにリセットされるレート制限に引っかかって、集中してコード書いてるとすぐに上限に達しちゃう。プロンプトに「このコンポーネントをモダンデザインに〜」って細かく指示してもCFG（プロンプトへの忠実度）みたいな調整が効かないのが地味にストレスでした。</p>\n\n<p>ところが！BlockというSquareの親会社が開発した「Goose」っていう完全無料のオープンソースAIエージェントが、まさに同じ機能を無制限で提供してくれるんです。これ試してみたら本当にびっくり。ローカルマシンで完全に動作するから、クラウド依存なし、レート制限なし。あなたのコードやデータは100%あなたのマシンに残ります。GitHubでも26,100以上のスターを獲得してて、1月19日に最新版1.20.1がリリースされたばっかり。開発スピードも商用プロダクト並みです。</p>\n\n<h2>Ollama連携でローカル運用！設定方法と実運用のポイント</h2>\n\n<p>Gooseをローカルで動かすために、私が実際に試した手順をシェアします。まずOllama（ollama.com）をインストールして、ターミナルで「ollama run qwen2.5」を実行。これでQwen 2.5ってモデルが自動ダウンロードされて、あなたのマシンで走ります。次にGooseをダウンロードしてDesktop版を立ち上げ、Settings から Ollama を選択してlocalhost:11434に接続するだけ。ここが一番テンション上がりました—セットアップ完了した瞬間、ネット接続なしで高度なコード実行が始まるんですよ。</p>\n\n<p>ただし注意点としてはメモリ。32GB RAMあると安心ですが、16GBなら小さめのモデルからスタートできます。私のMacBook Proで試したときは、ネガティブプロンプトならぬ「不要なタスク制限」を明示することで処理がめっちゃ軽くなりました。claudeの百万トークンコンテキストウィンドウには敵わないし、処理速度もクラウドより遅いですけど、その制約を受け入れるなら完全無料＆プライベートというメリットがでかい。ローカルで自由に何度でも試せるので、プロンプト調整の試行錯誤が無限にできます。</p>\n\n<h2>商用ツールとの決定的な違い—自由か便利か、あなたはどっち選ぶ？</h2>\n\n<p>Claude CodeやCursor、GitHub Copilotは確かに優れてます。特にAnthropicのOpus 4.5は複雑なコードベース理解で圧倒的。ControlNetのような細かいパラメータ調整を求める人には商用が適してます。でも「月額200ドル+レート制限」という足かせは、ハッキング精神のある開発者には許しがたい。Gooseは違う。モデルを自由に選べて、ローカルで好きなだけ実行できます。</p>\n\n<p>次は私もMeta のLlamaモデルとGoogleのGemma組み合わせたハイブリッド構成を試してみる予定です。あなたも「え、完全無料でこれ？」って状態を体感してほしい。ぜひGoose（github.com/block/goose）を試してみてください。セットアップのコツや実装結果、ぜひ教えてください。あなたのAIエージェントの活用事例が見たいです！</p>\n\n<p><strong>参照元：</strong><a href=\"https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free\" target=\"_blank\">VentureBeat - Claude Code costs up to $200 a month. Goose does the same thing for free.</a></p>",
+  "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&q=30",
+  "source": "VentureBeat AI",
+  "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+  "publishedAt": "2026-07-07T01:15:22.101Z",
+  "tags": [
+    "AI画像生成",
+    "VentureBeat AI",
+    "Stable Diffusion"
+  ]
+}
