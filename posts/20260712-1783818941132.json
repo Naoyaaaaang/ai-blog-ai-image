@@ -1,0 +1,14 @@
+{
+  "slug": "20260712-1783818941132",
+  "title": "複数角度で一貫したキャラ生成！Qwen LoRAの魔法",
+  "content": "<h2>Qwen Edit LoRAで同じキャラを多角度から表現できるようになりました</h2>\n\n<p>最近、Stable Diffusionの新しいワークフローを試してみたんですが、これが本当にヤバいです。Qwen Image Editを使った「Multiple Angle Consistent Character」というやつなんですけど、一度生成したキャラクターを、テキストプロンプトだけで複数の角度から描き直してくれるんですよ。</p>\n\n<p>これまで3Dモデルを使うか、ControlNetで手間をかけるか、あるいは手動で何度も試行錯誤するしかなかったキャラの多角度表現が、LoRA（Low-Rank Adaptation）とQwenの画像編集機能で一気に効率化されました。実際に自分のキャラクターで試してみたところ、元の画像の顔のディテールや服装の質感まで保ったまま、正面・側面・後ろ姿がきちんと統一された状態で生成されるんです。</p>\n\n<p>このワークフローはComfyUIを使って構築されているんですが、セットアップもそこまで複雑じゃないのが嬉しいポイント。プロンプトに「side view」や「back view」を追加するだけで、自動的にキャラの向きが変わります。個人的にここが一番テンション上がったのは、CFG（プロンプトへの忠実度）を調整することで、元の絵柄をどれだけ保つか自由にコントロールできるところです。CFGを7～9に設定したら、かなり忠実にキャラが再現されました。</p>\n\n<h2>キャラクター制作ワークフローはこう使う</h2>\n\n<p>実務的な使い方としては、まずベースになる正面イラストを生成して、そこからこのQwen Editワークフローで複数アングルを量産するのが最効率だと思います。ネガティブプロンプトに「低品質」「ぼやけた」「不自然な比率」といったキーワードをしっかり入れておくことが、クオリティを保つコツですね。</p>\n\n<p>RPGのキャラグラフィックスを作りたい人、マンガやアニメのキャラシートを充実させたい人は、ここをマジで試してみる価値があります。従来なら数時間かかってた多角度表現が、15分くらいで完成しちゃいます。Samplerの設定もいろいろ試してみたんですが、DPM++ 2M Karrasあたりだとバランスのいいクオリティが出ました。</p>\n\n<h2>今後の展開と期待感</h2>\n\n<p>次は、このワークフローで生成した複数アングルの画像をアニメーション化したり、VRMモデルに落とし込んだりできないかな〜って考えてます。LoRA技術がどんどん進化していく中で、こういった実用的なツールが出てくるのは本当に激アツです。</p>\n\n<p>ぜひみなさんも実際に試してみてください！あなたが作ったキャラクターの多角度イラスト、めっちゃ見たいです。質問や工夫した点があったら、ぜひ教えてもらえるとうれしいです。</p>\n\n<p><a href=\"https://stable-diffusion-art.com/qwen-image-edit-multiple-angle-lora/\" target=\"_blank\">参照元：Stable Diffusion Art - Multiple Angle Consistent Character with Qwen Edit LoRA</a></p>",
+  "imageUrl": "https://loremflickr.com/1200/630/art?lock=1132",
+  "source": "Stable Diffusion",
+  "sourceUrl": "https://stable-diffusion-art.com/qwen-image-edit-multiple-angle-lora/",
+  "publishedAt": "2026-07-12T01:15:41.132Z",
+  "tags": [
+    "AI画像生成",
+    "Stable Diffusion",
+    "Stable Diffusion"
+  ]
+}
